@@ -23,6 +23,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Muestra el vehiculo ciclomotor desde el que se la llamo
+        /// </summary>
+        /// <returns>string a mostrar</returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

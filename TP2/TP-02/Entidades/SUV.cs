@@ -23,6 +23,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Muestra el vehiculo SUV desde el que se la llamo
+        /// </summary>
+        /// <returns></returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

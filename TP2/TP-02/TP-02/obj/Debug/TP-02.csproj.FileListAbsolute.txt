@@ -31,3 +31,13 @@ D:\TP2\TP-02\TP-02\bin\Debug\Entidades.dll
 D:\TP2\TP-02\TP-02\bin\Debug\Entidades.pdb
 D:\TP2\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 D:\TP2\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\bin\Debug\TP-02.exe.config
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\bin\Debug\TP-02.exe
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\bin\Debug\TP-02.pdb
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\bin\Debug\Entidades.dll
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\bin\Debug\Entidades.pdb
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\obj\Debug\TP-02.csproj.AssemblyReference.cache
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\obj\Debug\TP-02.exe
+D:\tps\tps_laboratorio_ii\TP2\TP-02\TP-02\obj\Debug\TP-02.pdb

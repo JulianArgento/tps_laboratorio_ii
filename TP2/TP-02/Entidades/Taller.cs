@@ -19,10 +19,19 @@ namespace Entidades
         }
 
         #region "Constructores"
+
+        /// <summary>
+        /// inicializa la lista de vehiculos
+        /// </summary>
         private Taller()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+
+        /// <summary>
+        /// Asigna el espacio disponible segun el parametro ingresado
+        /// </summary>
+        /// <param name="espacioDisponible"></param>
         public Taller(int espacioDisponible):this()
         {
             this.espacioDisponible = espacioDisponible;

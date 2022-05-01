@@ -49,6 +49,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Muestra el vehiculo de tipo sedan desde el que se llamo
+        /// </summary>
+        /// <returns>retorna un string con el vehiculo a mostar</returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

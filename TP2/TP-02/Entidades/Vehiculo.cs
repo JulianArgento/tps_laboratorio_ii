@@ -55,7 +55,10 @@ namespace Entidades
         
             
         
-
+        /// <summary>
+        /// Devuelve un string con los datos del vehiculo ingresado por parametro
+        /// </summary>
+        /// <param name="p">vehiculo</param>
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
