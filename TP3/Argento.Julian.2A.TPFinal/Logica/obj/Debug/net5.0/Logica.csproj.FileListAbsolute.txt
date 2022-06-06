@@ -1,0 +1,13 @@
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.deps.json
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.dll
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\ref\Logica.dll
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.pdb
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.dll
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\ref\Logica.dll
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.pdb
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
+C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\lista.json
