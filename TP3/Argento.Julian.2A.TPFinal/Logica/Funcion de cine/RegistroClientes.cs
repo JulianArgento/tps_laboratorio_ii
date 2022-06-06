@@ -43,7 +43,7 @@ namespace Logica
                 StringBuilder sb = new StringBuilder();
                 foreach (Cliente persona in ClientesRegistrados)
                 {
-                    sb.AppendLine(persona.ToString());
+                    sb.AppendLine(persona.Mostrar());
                     
                 }
 

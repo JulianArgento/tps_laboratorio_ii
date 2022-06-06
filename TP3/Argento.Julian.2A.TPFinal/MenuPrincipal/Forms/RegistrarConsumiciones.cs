@@ -35,6 +35,11 @@ namespace Interfaz.Forms
             
         }
 
+        /// <summary>
+        /// Valida que los campos hayan sido ingresados y llama a ComprarGaseosa o ComprarPochoclos, segun el caso 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Comprar_Click(object sender, EventArgs e)
         {
             if(cmb_Tamanio.SelectedIndex!=-1&&num_CantidadAComprar.Value>0)
@@ -63,6 +68,9 @@ namespace Interfaz.Forms
 
         }
 
+        /// <summary>
+        /// Maneja una compra de un producto pochoclos
+        /// </summary>
         private void ComprarPochoclos()
         {
 
@@ -104,6 +112,9 @@ namespace Interfaz.Forms
 
         }
         
+        /// <summary>
+        /// Maneja una compra de un producto gaseosa
+        /// </summary>
         private void ComprarGaseosa()
         {
             if ((tamanio == ETamanio.Chico || tamanio == ETamanio.Mediano || tamanio == ETamanio.Grande) && (marca == EMarca.CocaCola || marca == EMarca.Fanta || marca == EMarca.Sprite))

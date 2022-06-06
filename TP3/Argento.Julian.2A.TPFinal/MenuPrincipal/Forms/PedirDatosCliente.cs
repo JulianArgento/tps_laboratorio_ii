@@ -32,7 +32,11 @@ namespace Interfaz.Forms
         
 
         
-
+        /// <summary>
+        /// Se crea al cliente con los campos especificados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Aceptar_Click(object sender, EventArgs e)
         {
             string nombre = txt_Nombre.Text;
@@ -83,6 +87,9 @@ namespace Interfaz.Forms
 
         }
 
+        /// <summary>
+        /// Propiedad para conseguir al cliente nuevo desde otro form
+        /// </summary>
         public Cliente Reservado
         {
             get { return reservador; }

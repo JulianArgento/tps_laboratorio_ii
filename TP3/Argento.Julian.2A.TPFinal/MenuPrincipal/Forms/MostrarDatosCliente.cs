@@ -36,6 +36,11 @@ namespace Interfaz.Forms
             Close();
         }
 
+        /// <summary>
+        /// Imprimo los datos del cliente en un txt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_ImprimirTicket_Click(object sender, EventArgs e)
         {
             try

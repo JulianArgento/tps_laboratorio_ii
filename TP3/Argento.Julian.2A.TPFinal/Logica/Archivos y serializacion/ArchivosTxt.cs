@@ -19,7 +19,11 @@ namespace Logica
 
             path = AppDomain.CurrentDomain.BaseDirectory + @"Jason y txt\";
         }
-
+        /// <summary>
+        /// Escribo un .txt con los datos ingresados en datos , le agrego el nombre recibido por nombre y lo guardo en el path AppDomain.CurrentDomain.BaseDirectory + @"Jason y txt\"
+        /// </summary>
+        /// <param name="datos"></param>
+        /// <param name="nombre"></param>
         public static void Escribir(T datos,string nombre)
         {
             

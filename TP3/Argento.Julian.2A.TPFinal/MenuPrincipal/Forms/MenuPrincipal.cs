@@ -23,6 +23,11 @@ namespace Interfaz.Forms
             clientes = new RegistroClientes();
         }
 
+        /// <summary>
+        /// Salgo de la aplicacion, guardando la lista de clientes modificada en el json 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Salir_Click(object sender, EventArgs e)
         {
             ClaseSerializadoraJson<List<Cliente>>.EscribirArchivo("lista", clientes.ClientesRegistrados);
@@ -30,6 +35,7 @@ namespace Interfaz.Forms
             Close();
         }
 
+        
         private void ReservarButacas_Click(object sender, EventArgs e)
         {
             SalaDeCine asientos = new SalaDeCine(clientes);
@@ -37,6 +43,11 @@ namespace Interfaz.Forms
             
         }
 
+        /// <summary>
+        /// Cargo el archivo json de clientes al cargar el form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
             try

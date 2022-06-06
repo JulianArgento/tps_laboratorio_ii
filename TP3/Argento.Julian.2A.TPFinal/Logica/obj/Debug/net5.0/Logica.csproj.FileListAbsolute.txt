@@ -11,3 +11,16 @@ C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\re
 C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.pdb
 C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
 C:\Users\julia\source\repos\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\lista.json
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\lista.json
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.deps.json
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.dll
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\ref\Logica.dll
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\bin\Debug\net5.0\Logica.pdb
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.dll
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\ref\Logica.dll
+D:\subirtp\tps_laboratorio_ii\TP3\Argento.Julian.2A.TPFinal\Logica\obj\Debug\net5.0\Logica.pdb

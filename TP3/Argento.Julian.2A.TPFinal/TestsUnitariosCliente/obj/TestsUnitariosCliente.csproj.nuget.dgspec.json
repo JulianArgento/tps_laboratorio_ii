@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj": {}
+    "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
+    "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj",
+        "projectUniqueName": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj",
+        "projectPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\obj\\",
+        "outputPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj": {
+    "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj",
+        "projectUniqueName": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj",
         "projectName": "TestsUnitariosCliente",
-        "projectPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj",
+        "projectPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\TestsUnitariosCliente.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\obj\\",
+        "outputPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\TestsUnitariosCliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
-                "projectPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj"
+              "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
+                "projectPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj"
               }
             }
           }

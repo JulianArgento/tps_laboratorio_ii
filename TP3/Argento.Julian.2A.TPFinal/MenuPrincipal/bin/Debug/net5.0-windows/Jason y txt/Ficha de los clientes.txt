@@ -1,6 +1,6 @@
-Logica.Cliente
-Logica.Cliente
-Logica.Cliente
-Logica.Cliente
-Logica.Cliente
+|| Id: 44052621 || Nombre: Julian || Cuenta: 2500 || Butacas Reservadas: 3F 4F 
+|| Id: 40992838 || Nombre: Carolina || Cuenta: 1700 || Butacas Reservadas: 5F 6F 
+|| Id: 333333333 || Nombre: Horacio || Cuenta: 2000 || Butacas Reservadas: 1H 
+|| Id: 17137960 || Nombre: Lautaro || Cuenta: 1500 || Butacas Reservadas: 1F 
+|| Id: 334445928 || Nombre: Gloton || Cuenta: 500 || Butacas Reservadas: 
 

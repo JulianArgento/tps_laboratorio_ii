@@ -40,7 +40,11 @@ namespace Interfaz.Forms
 
 
         }
-
+        /// <summary>
+        /// Agrego un cliente a la lista
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Agregar_Click(object sender, EventArgs e)
         {
             try
@@ -75,19 +79,32 @@ namespace Interfaz.Forms
 
         }
 
+        /// <summary>
+        /// Elimino un cliente de la lista
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Eliminar_Click(object sender, EventArgs e)
         {
             DialogResult respuesta = MessageBox.Show($"Desea eliminar a este cliente?", "Confirmacion", MessageBoxButtons.YesNo);
 
-            if(respuesta==DialogResult.Yes)
+            try
             {
-                listaClientes -= listaClientes.ClientesRegistrados[lsb_Clientes.SelectedIndex];
-                lsb_Clientes.Items.RemoveAt(lsb_Clientes.SelectedIndex);
-                MessageBox.Show("Cliente eliminado");
+                if (respuesta == DialogResult.Yes)
+                {
+                    listaClientes -= listaClientes.ClientesRegistrados[lsb_Clientes.SelectedIndex];
+                    lsb_Clientes.Items.RemoveAt(lsb_Clientes.SelectedIndex);
+                    MessageBox.Show("Cliente eliminado");
+                }
+                else
+                {
+                    MessageBox.Show("No se elimino al cliente");
+                }
+
             }
-            else
+            catch(ValorInvalidoFueraDeRango ex)
             {
-                MessageBox.Show("No se elimino al cliente");
+                MessageBox.Show(ex.Message);
             }
 
 
@@ -95,7 +112,9 @@ namespace Interfaz.Forms
 
         
 
-
+        /// <summary>
+        /// Propiedad para retornar el cliente seleccionado
+        /// </summary>
         public Cliente ClienteSeleccionado
         {
             get
@@ -104,6 +123,15 @@ namespace Interfaz.Forms
             }
         }
 
+
+
+
+
+        /// <summary>
+        /// Selecciono un cliente para retornarselo al form llamador con la propiedad ClienteSeleccionado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Seleccionar_Click(object sender, EventArgs e)
         {
             clienteSeleccionado = listaClientes.ClientesRegistrados[lsb_Clientes.SelectedIndex];
@@ -111,6 +139,12 @@ namespace Interfaz.Forms
             Close();
         }
 
+
+        /// <summary>
+        /// Imprimo la ficha de la lista
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_Ficha_Click(object sender, EventArgs e)
         {
             try

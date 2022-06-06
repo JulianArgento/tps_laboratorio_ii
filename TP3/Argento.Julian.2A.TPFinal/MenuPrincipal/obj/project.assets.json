@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\Interfaz.csproj",
+      "projectUniqueName": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\Interfaz.csproj",
       "projectName": "Interfaz",
-      "projectPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\Interfaz.csproj",
+      "projectPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\Interfaz.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\obj\\",
+      "outputPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\MenuPrincipal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
-              "projectPath": "C:\\Users\\julia\\source\\repos\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj"
+            "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj": {
+              "projectPath": "D:\\subirtp\\tps_laboratorio_ii\\TP3\\Argento.Julian.2A.TPFinal\\Logica\\Logica.csproj"
             }
           }
         }

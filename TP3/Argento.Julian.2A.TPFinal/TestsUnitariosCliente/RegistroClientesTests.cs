@@ -7,6 +7,9 @@ namespace TestsUnitariosCliente
     [TestClass]
     public class RegistroClientesTests
     {
+        /// <summary>
+        /// El registro no agrega un cliente null, en caso de que eso se intente se devolvera una excepcion de tipo ValorInvalidoFueraDeRango
+        /// </summary>
         [TestMethod]
         public void RegistroClientes_NoAgregaUnClienteNull()
         {
@@ -21,6 +24,9 @@ namespace TestsUnitariosCliente
             Assert.ThrowsException<ValorInvalidoFueraDeRango>(()=> lista += cliente);
         }
 
+        /// <summary>
+        /// El registro no agrega un cliente repetido, en caso de que eso se intente se devolvera una excepcion de tipo ValorInvalidoFueraDeRango
+        /// </summary>
         [TestMethod]
         public void RegistroClientes_NoAgregaClientesRepetidos()
         {
@@ -39,6 +45,9 @@ namespace TestsUnitariosCliente
 
         }
 
+        /// <summary>
+        /// El registro no borra clientes que no hayan sido registrados, en caso de que se intente se devolvera una excepcion del tipo ValorInvalidoFueraDeRango
+        /// </summary>
         [TestMethod]
         public void RegistroClientes_NoBorraClientesQueNoFueronAgregados()
         {

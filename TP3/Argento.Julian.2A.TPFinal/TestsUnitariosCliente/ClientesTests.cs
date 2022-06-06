@@ -7,6 +7,10 @@ namespace TestsUnitariosCliente
     [TestClass]
     public class ClientesTests
     {
+
+        /// <summary>
+        /// El cliente no agrega una butaca repetida, en caso de que eso se intente se devolvera una excepcion de tipo ValorInvalidoFueraDeRango
+        /// </summary>
         [TestMethod]
         public void Clientes_NoSeAgregaUnaButacaRepetida()
         {
@@ -20,6 +24,9 @@ namespace TestsUnitariosCliente
             Assert.ThrowsException<ValorInvalidoFueraDeRango>(() => julian += asiento);
         }
 
+        /// <summary>
+        /// El cliente no agrega una butaca null, en caso de que eso se intente se devolvera una excepcion de tipo ValorInvalidoFueraDeRango
+        /// </summary>
         [TestMethod]
         public void Clientes_NoSeAgregaUnaButacaNull()
         {

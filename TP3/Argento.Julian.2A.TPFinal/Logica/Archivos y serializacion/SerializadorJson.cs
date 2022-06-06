@@ -20,6 +20,12 @@ namespace Logica
             path = AppDomain.CurrentDomain.BaseDirectory + @"Jason y txt\";
         }
 
+
+        /// <summary>
+        /// Genero un archivo Json con los datos recibidos en Data en el path AppDomain.CurrentDomain.BaseDirectory + @"Jason y txt\"
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="data"></param>
         public static void EscribirArchivo(string nombre, T data)
         {
 
@@ -43,7 +49,11 @@ namespace Logica
             }
         }
 
-
+        /// <summary>
+        /// Leo el archivo que se llama como el parametro recibido en el path AppDomain.CurrentDomain.BaseDirectory + @"Jason y txt\"
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public static T LeerArchivo(string nombre)
         {
             string archivo = "";

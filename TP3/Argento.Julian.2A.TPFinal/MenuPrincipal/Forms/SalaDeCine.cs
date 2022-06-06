@@ -29,7 +29,9 @@ namespace Interfaz.Forms
             
         }
 
-
+        /// <summary>
+        /// Asocio acada boton a el diccionario de botones
+        /// </summary>
         private void CargarBotones()
         {
             botones.Add("1H",this.btn_Butaca1H);
@@ -58,6 +60,9 @@ namespace Interfaz.Forms
             botones.Add("8F", this.btn_Butaca8F);
         }
 
+        /// <summary>
+        /// Cargo las butacas , vinculandolas con los botones
+        /// </summary>
         private void CargarButacas()
         {
             butacas = new List<Butaca>();
@@ -89,7 +94,9 @@ namespace Interfaz.Forms
             
         }
 
-
+        /// <summary>
+        /// Cambio el color de la butaca dependiendo de su disponibilidad
+        /// </summary>
         private void DisponibilidadButacas()
         {
            
@@ -112,6 +119,11 @@ namespace Interfaz.Forms
             }
         }
 
+        /// <summary>
+        /// Detecto que butaca fue clickeada y se la mando por parametro a InformarButaca
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_butaca_Click(object sender, EventArgs e)
         {
             Button auxBoton = (Button)sender;
@@ -131,7 +143,10 @@ namespace Interfaz.Forms
 
         }
 
-
+        /// <summary>
+        /// Si la butaca esta libre la ofrezco para reservar, sino muestro el cliente que la reservo
+        /// </summary>
+        /// <param name="key"></param>
         private void InformarButaca(string key)
         {
 
@@ -168,7 +183,10 @@ namespace Interfaz.Forms
 
         }
 
-
+        /// <summary>
+        /// Reservo la butaca al cliente elegido en la Tabla de clientes
+        /// </summary>
+        /// <param name="asiento"></param>
         public void ReservarButaca(Butaca asiento)
         {
 
