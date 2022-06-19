@@ -154,16 +154,17 @@ namespace Logica
 
             try
             {
-                string sql = "INSERT INTO Tabla_Compras (NOMBRE_CLIENTE, PRECIO_COMPRA, PRODUCTOS_COMPRADOS, CANTIDAD_COMPRADA) VALUES(";
-                sql = sql + "'" + param.NombreCliente + "'," + param.PrecioCompra.ToString() + ",'" + param.ProductosComprados + "'," + param.CantidadComprada.ToString() + ")";
+                conexion.Open();
+                this.comando.CommandText = $"Insert into Tabla_Compras (NOMBRE_CLIENTE,PRECIO_COMPRA,PRODUCTOS_COMPRADOS,CANTIDAD_COMPRADA) values (@NOMBRE_CLIENTE,@PRECIO_COMPRA,@PRODUCTOS_COMPRADOS,@CANTIDAD_COMPRADA)";
+                
+                this.comando.Parameters.AddWithValue("@NOMBRE_CLIENTE", param.NombreCliente);
+                this.comando.Parameters.AddWithValue("@PRECIO_COMPRA", param.PrecioCompra);
+                this.comando.Parameters.AddWithValue("@PRODUCTOS_COMPRADOS", param.ProductosComprados);
+                this.comando.Parameters.AddWithValue("@CANTIDAD_COMPRADA", param.CantidadComprada);
 
-                this.comando = new SqlCommand();
+               
 
-                this.comando.CommandType = CommandType.Text;
-                this.comando.CommandText = sql;
-                this.comando.Connection = this.conexion;
-
-                this.conexion.Open();
+                
 
                 int filasAfectadas = this.comando.ExecuteNonQuery();
 
@@ -176,7 +177,7 @@ namespace Logica
             catch (Exception e)
             {
                 rta = false;
-                throw new ValorInvalidoFueraDeRangoException("Hubo un error al agregar el dato");
+                throw new ValorInvalidoFueraDeRangoException(e.Message);
             }
             finally
             {
