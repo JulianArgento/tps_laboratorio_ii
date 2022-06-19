@@ -26,6 +26,8 @@ namespace Logica
             }
         }
 
+        
+
         /// <summary>
         /// Metodo de extension de la clase double que compara 2 numeros para poder ordenarlos de mayor a menor
         /// </summary>

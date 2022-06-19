@@ -14,12 +14,12 @@ namespace Interfaz.Forms
 {
     public partial class PedirDatosCliente : Form
     {
-
+       
         
         Cliente reservador;
         RegistroClientes clientes;
 
-
+       
         public PedirDatosCliente(RegistroClientes clientesRegistrados)
         {
             InitializeComponent();

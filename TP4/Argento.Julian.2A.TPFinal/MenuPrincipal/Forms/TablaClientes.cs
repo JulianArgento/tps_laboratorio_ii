@@ -33,7 +33,7 @@ namespace Interfaz.Forms
         
        
 
-
+       
         public TablaClientes(RegistroClientes clientes)
         {
             InitializeComponent();

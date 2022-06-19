@@ -15,16 +15,14 @@ namespace Logica
     public class ConexionBD
     {
 
-        #region Atributos
+        
 
         private static string cadena_conexion;
         private SqlConnection conexion;
         private SqlCommand comando;
         private SqlDataReader lector;
 
-        #endregion
-
-        #region Constructores
+        
 
         static ConexionBD()
         {
@@ -37,11 +35,7 @@ namespace Logica
             this.conexion = new SqlConnection(ConexionBD.cadena_conexion);
         }
 
-        #endregion
-    
-        #region Métodos
-
-        #region Probar conexión
+        
         /// <summary>
         /// Pruebo que funcione la conexion a la base de datos, si no funciona retorno false, si funciona true
         /// </summary>
@@ -69,9 +63,7 @@ namespace Logica
             return rta;
         }
 
-        #endregion
-
-        #region Select
+       
 
         /// <summary>
         /// Obtengo la lista de compras de la bdd, asincrona para poder utilizar el form mientras se carga la lista
@@ -140,9 +132,7 @@ namespace Logica
             return lista;
         }
 
-        #endregion
-
-        #region Insert
+       
         /// <summary>
         /// Agrego una compra a la base de datos
         /// </summary>
@@ -190,9 +180,7 @@ namespace Logica
             return rta;
         }
 
-        #endregion
-
-        #region Update
+        
         /// <summary>
         /// Modifico un dato existente en la base de datos
         /// </summary>
@@ -249,9 +237,7 @@ namespace Logica
             return rta;
         }
 
-        #endregion
-
-        #region Delete
+       
         /// <summary>
         /// Elimino una compra de la base de datos, la cual pertenezca al id ingresado
         /// </summary>
@@ -301,9 +287,7 @@ namespace Logica
             return rta;
         }
 
-        #endregion
-
-        #endregion
+        
         
     }
 }
