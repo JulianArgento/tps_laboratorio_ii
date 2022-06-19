@@ -1,0 +1,11 @@
+|| Id: 40992838 || Nombre: Carolina || Cuenta: 4200 || Butacas Reservadas: 5F 6F 5H 
+|| Id: 33333333 || Nombre: Fran || Cuenta: 2200 || Butacas Reservadas: 
+|| Id: 334445928 || Nombre: Gloton || Cuenta: 8700 || Butacas Reservadas: 
+|| Id: 77382716 || Nombre: Gloton2 || Cuenta: 2300 || Butacas Reservadas: 7G 
+|| Id: 333333333 || Nombre: Horacio || Cuenta: 4200 || Butacas Reservadas: 1H 
+|| Id: 44052621 || Nombre: Julian || Cuenta: 6000 || Butacas Reservadas: 3F 4F 
+|| Id: 17137960 || Nombre: Lautaro || Cuenta: 4000 || Butacas Reservadas: 1F 
+|| Id: 3 || Nombre: p || Cuenta: 0 || Butacas Reservadas: 
+|| Id: 3323123 || Nombre: rumania || Cuenta: 2200 || Butacas Reservadas: 
+|| Id: 33241234 || Nombre: Tata || Cuenta: 2100 || Butacas Reservadas: 
+
