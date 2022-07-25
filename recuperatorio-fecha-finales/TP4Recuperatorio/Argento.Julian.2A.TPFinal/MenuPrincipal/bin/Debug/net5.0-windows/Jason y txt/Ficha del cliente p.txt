@@ -1,0 +1,1 @@
+|| Id: 3 || Nombre: p || Cuenta: 500 || Butacas Reservadas: 8H 
