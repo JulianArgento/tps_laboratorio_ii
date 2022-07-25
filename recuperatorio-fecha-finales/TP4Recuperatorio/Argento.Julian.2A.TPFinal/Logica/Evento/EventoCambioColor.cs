@@ -11,6 +11,9 @@ namespace Logica.Evento
         public delegate void ColorHandler();
         public event ColorHandler cambiarColor;
 
+        /// <summary>
+        /// Valida que el evento cambiarColor no sea null, y lo llama
+        /// </summary>
         public void CambiarColor()
         {
             if (this.cambiarColor is not null)

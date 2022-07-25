@@ -366,7 +366,9 @@ namespace Interfaz.Forms
         }
 
 
-
+        /// <summary>
+        /// Cambia el backcolor de los campos requeridos a rojo
+        /// </summary>
         public void CambiarColor()
         {
             
