@@ -117,6 +117,8 @@ namespace Interfaz.Forms
                     Compra compraModificar = listaCompras[lsb_Compras.SelectedIndex];
                     Cliente clienteAnterior = lista.EncontrarClientePorNombre(compraModificar.NombreCliente);
                     clienteAnterior.Cuenta -= compraModificar.PrecioCompra;
+                    listaCompras.Remove(compraModificar);
+                 
                     RegistrarConsumiciones consumicion = new RegistrarConsumiciones(lista);
                     consumicion.ShowDialog();
                     Compra comp = consumicion.GetConsumicion;
@@ -183,6 +185,8 @@ namespace Interfaz.Forms
         /// </summary>
         private async void ActualizacionDeDatos()
         {
+            btn_Modificar.Enabled = false;
+            btn_Borrar.Enabled = false;
             btn_Agregar.Enabled = false;
             lsb_Compras.Items.Add("Cargando.....");
             listaCompras = await conexion.ObtenerListaCompras();

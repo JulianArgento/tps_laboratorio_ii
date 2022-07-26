@@ -13,9 +13,9 @@ CREATE TABLE Tabla_Compras
 );
 GO
 INSERT INTO Tabla_Compras(NOMBRE_CLIENTE, PRECIO_COMPRA, PRODUCTOS_COMPRADOS, CANTIDAD_COMPRADA) VALUES
-	('Horacio', 1800, 'Pochoclos Mediano Dulces|Gaseosa Chico CocaCola', 2),
+	('Horacio', 1800, 'Pochoclos Mediano Dulces|Gaseosa Chico Sprite', 2),
 	('Carolina', 2000, 'Pochoclos Mediano Dulces', 2),
 	('Fran', 1200, 'Gaseosa Chico CocaCola', 2),
 	('Fran', 1200, 'Gaseosa Grande CocaCola', 2),
-	('Julian', 2400, 'Pochoclos Grande Dulces|Gaseosa Grande CocaCola', 2)
+	('Julian', 2400, 'Pochoclos Grande Dulces|Gaseosa Grande Sprite', 2)
 	;

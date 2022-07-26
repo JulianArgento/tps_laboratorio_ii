@@ -202,7 +202,7 @@ namespace Logica
 
 
                 string sql = "UPDATE Tabla_Compras ";
-                sql += "SET NOMBRE_CLIENTE = @NOMBRE_CLIENTE, PRECIO_COMPRA = @PRECIO_COMPRA, CANTIDAD_COMPRADA = @CANTIDAD_COMPRADA ";
+                sql += "SET NOMBRE_CLIENTE = @NOMBRE_CLIENTE, PRECIO_COMPRA = @PRECIO_COMPRA, PRODUCTOS_COMPRADOS = @PRODUCTOS_COMPRADOS, CANTIDAD_COMPRADA = @CANTIDAD_COMPRADA ";
                 sql += "WHERE ID_COMPRA = @ID_COMPRA";
 
                 this.comando.CommandType = CommandType.Text;
